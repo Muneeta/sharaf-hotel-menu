@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mango Juice - Sharaf Hotel</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .detail-container {
+      max-width: 500px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 2px 12px rgba(34,139,34,0.08);
+      padding: 0 0 28px 0;
+      overflow: hidden;
+    }
+    .detail-img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+      display: block;
+    }
+    .detail-title {
+      text-align: center;
+      font-size: 2rem;
+      margin: 22px 0 18px 0;
+      color: var(--primary-color);
+    }
+    .detail-table {
+      width: 90%;
+      margin: 0 auto;
+      border-collapse: separate;
+      border-spacing: 0 16px;
+    }
+    .detail-label {
+      font-weight: 600;
+      color: #555;
+      width: 40%;
+      text-align: left;
+      font-size: 1.08rem;
+    }
+    .detail-value {
+      text-align: right;
+      width: 60%;
+      font-size: 1.08rem;
+      color: #222;
+    }
+    .price-value {
+      color: var(--primary-color); /* Forest green color for price */
+    }
+    @media (max-width: 600px) {
+      .detail-container {
+        margin: 18px 6px;
+        border-radius: 12px;
+      }
+      .detail-img {
+        height: 170px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+      }
+      .detail-title {
+        font-size: 1.3rem;
+        margin: 14px 0 12px 0;
+      }
+      .detail-table {
+        width: 98%;
+      }
+      .detail-label, .detail-value {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body class="menu-page">
+  <a href="juice-corner.html" class="back-btn">&larr; Back to Juice Corner</a>
+  <div class="detail-container">
+    <img src="images/mango.jpg" alt="Mango Juice" style="width: 100%; max-width: 500px; border-radius: 10px; margin-bottom: 20px;">
+    <h1 class="detail-title">Mango Juice</h1>
+    <table class="detail-table">
+      <tr>
+        <td class="detail-label">Price</td>
+        <td class="detail-value price-value">ETB - 30</td>
+      </tr>
+      <tr>
+        <td class="detail-label">Ingredients</td>
+        <td class="detail-value">Fresh mangoes blended into a rich, sweet tropical juice.</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html> 

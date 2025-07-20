@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sharaf Hotel Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="menu-page">
+  <img src="images/explore-header.jpg.jpg" alt="Explore Our Menu" class="menu-header-img" />
+  <h1 style="text-align:center;font-size:2.5rem;font-family:'Playfair Display',serif;color:#228B22;margin:32px 0 10px 0;font-weight:700;letter-spacing:0.5px;">Explore Our Menu</h1>
+  <div class="menu-category-rects">
+    <a href="main-dishes.html" class="menu-category-rect">
+      <img src="images/icon-main-dishes.jpg" alt="Main Dishes" class="menu-category-rect-img" />
+      <span class="menu-category-rect-label">Main Dishes</span>
+    </a>
+    <a href="appetizers.html" class="menu-category-rect">
+      <img src="images/icon-appetizers.jpg" alt="Appetizers" class="menu-category-rect-img" />
+      <span class="menu-category-rect-label">Appetizers</span>
+    </a>
+    <a href="juice-corner.html" class="menu-category-rect">
+      <img src="images/icon-juice-corner.jpg" alt="Juice Corner" class="menu-category-rect-img" />
+      <span class="menu-category-rect-label">Juice Corner</span>
+    </a>
+    <a href="iced-beverages.html" class="menu-category-rect">
+      <img src="images/iced-beverages.jpg.jpg" alt="Iced Beverages" class="menu-category-rect-img" />
+      <span class="menu-category-rect-label">Iced Beverages</span>
+    </a>
+  </div>
+  <div style="text-align:center;font-size:0.98rem;color:#888;margin:38px 0 18px 0;font-family:'Segoe UI',Arial,sans-serif;letter-spacing:0.1px;">Let your taste buds do the choosing 🍽️</div>
+<script>
+// Prevent back navigation to index.html from menu.html
+if (window.history && window.history.pushState) {
+  window.history.pushState(null, '', window.location.href);
+  window.addEventListener('popstate', function(event) {
+    window.location.replace('menu.html');
+  });
+}
+</script>
+</body>
+</html>

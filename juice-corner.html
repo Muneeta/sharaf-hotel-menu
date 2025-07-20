@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juice Corner - Sharaf Hotel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="menu-page">
+  <div class="animated-bg" aria-hidden="true">
+    <svg class="animated-bg-leaf" style="left:10vw; animation-delay:0s;" viewBox="0 0 32 32"><ellipse cx="16" cy="16" rx="16" ry="8" fill="#228B22"/></svg>
+    <svg class="animated-bg-leaf" style="left:40vw; animation-delay:3s;" viewBox="0 0 32 32"><ellipse cx="16" cy="16" rx="16" ry="8" fill="#228B22"/></svg>
+    <svg class="animated-bg-leaf" style="left:70vw; animation-delay:6s;" viewBox="0 0 32 32"><ellipse cx="16" cy="16" rx="16" ry="8" fill="#228B22"/></svg>
+  </div>
+  <div class="idle-overlay" id="idleOverlay">
+    <img src="images/sharaf-logo.jpg" alt="Sharaf Hotel Logo" class="idle-logo" />
+    <div class="idle-caption">Taste the Tradition – Love the Flavor</div>
+    <div class="idle-prompt">Tap anywhere to return to the menu</div>
+  </div>
+  <div class="language-switcher">
+    <label for="lang-select" style="margin-right:4px;">🌐</label>
+    <select id="lang-select" name="lang">
+      <option value="en">EN</option>
+      <option value="so" disabled>SO</option>
+      <option value="ar" disabled>AR</option>
+    </select>
+  </div>
+  <div class="menu-outer">
+    <a href="menu.html" class="back-btn">&larr; Back</a>
+    <img src="images/icon-juice-corner.jpg" alt="Juice Corner" class="banner-image" style="margin-bottom: 18px;" />
+    <div class="category-topbar" style="overflow-x:auto; white-space:nowrap;">
+      <a href="main-dishes.html" class="category-topbar-btn">Main Dishes</a>
+      <a href="appetizers.html" class="category-topbar-btn">Appetizers</a>
+      <a href="juice-corner.html" class="category-topbar-btn active" aria-current="page">Juice Corner</a>
+      <a href="iced-beverages.html" class="category-topbar-btn">Iced Beverages</a>
+    </div>
+    <h1 class="menu-section-title">Juice Corner</h1>
+    <hr class="menu-divider">
+    <div class="menu-container">
+      <div class="card-grid">
+        <a href="avocado.html" class="menu-card">
+          <img src="images/avocado.jpg" alt="Avocado" />
+          <div class="overlay">
+            <div class="card-title">Avocado</div>
+            <div class="star-rating" data-item="avocado" title="Tap to rate" onclick="event.stopPropagation();" ontouchstart="event.stopPropagation();">
+              <span class="star" data-value="1">&#9734;</span>
+              <span class="star" data-value="2">&#9734;</span>
+              <span class="star" data-value="3">&#9734;</span>
+              <span class="star" data-value="4">&#9734;</span>
+              <span class="star" data-value="5">&#9734;</span>
+            </div>
+            <div class="card-price">ETB - 30</div>
+          </div>
+        </a>
+        <a href="mango.html" class="menu-card">
+          <img src="images/mango.jpg" alt="Mango" />
+          <div class="overlay">
+            <div class="card-title">Mango</div>
+            <div class="star-rating" data-item="mango" title="Tap to rate" onclick="event.stopPropagation();" ontouchstart="event.stopPropagation();">
+              <span class="star" data-value="1">&#9734;</span>
+              <span class="star" data-value="2">&#9734;</span>
+              <span class="star" data-value="3">&#9734;</span>
+              <span class="star" data-value="4">&#9734;</span>
+              <span class="star" data-value="5">&#9734;</span>
+            </div>
+            <div class="card-price">ETB - 30</div>
+          </div>
+        </a>
+        <a href="pineapple.html" class="menu-card">
+          <img src="images/pineapple.jpg" alt="Pineapple" />
+          <div class="overlay">
+            <div class="card-title">Pineapple</div>
+            <div class="star-rating" data-item="pineapple" title="Tap to rate" onclick="event.stopPropagation();" ontouchstart="event.stopPropagation();">
+              <span class="star" data-value="1">&#9734;</span>
+              <span class="star" data-value="2">&#9734;</span>
+              <span class="star" data-value="3">&#9734;</span>
+              <span class="star" data-value="4">&#9734;</span>
+              <span class="star" data-value="5">&#9734;</span>
+            </div>
+            <div class="card-price">ETB - 30</div>
+          </div>
+        </a>
+        <a href="orange.html" class="menu-card">
+          <img src="images/orange.jpg" alt="Orange" />
+          <div class="overlay">
+            <div class="card-title">Orange</div>
+            <div class="star-rating" data-item="orange" title="Tap to rate" onclick="event.stopPropagation();" ontouchstart="event.stopPropagation();">
+              <span class="star" data-value="1">&#9734;</span>
+              <span class="star" data-value="2">&#9734;</span>
+              <span class="star" data-value="3">&#9734;</span>
+              <span class="star" data-value="4">&#9734;</span>
+              <span class="star" data-value="5">&#9734;</span>
+            </div>
+            <div class="card-price">ETB - 30</div>
+          </div>
+        </a>
+        <a href="watermelon.html" class="menu-card">
+          <img src="images/watermelon.jpg" alt="Watermelon" />
+          <div class="overlay">
+            <div class="card-title">Watermelon</div>
+            <div class="star-rating" data-item="watermelon" title="Tap to rate" onclick="event.stopPropagation();" ontouchstart="event.stopPropagation();">
+              <span class="star" data-value="1">&#9734;</span>
+              <span class="star" data-value="2">&#9734;</span>
+              <span class="star" data-value="3">&#9734;</span>
+              <span class="star" data-value="4">&#9734;</span>
+              <span class="star" data-value="5">&#9734;</span>
+            </div>
+            <div class="card-price">ETB - 30</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>📍 Dire Dawa, Ethiopia</p>
+    <p>🕰 7:00 AM – 10:00 PM Daily</p>
+    <p>📞 +251 91 146 4611</p>
+  </footer>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
+  <script src="script.js"></script>
+  <script>
+    // Loading overlay fade out
+    setTimeout(function() {
+      document.getElementById('loadingOverlay').classList.add('hide');
+    }, 1000);
+    // Idle animation logic
+    (function() {
+      var idleTimeout, idleDelay = 25000;
+      var overlay = document.getElementById('idleOverlay');
+      function showIdle() { overlay.classList.add('active'); }
+      function hideIdle() { overlay.classList.remove('active'); }
+      function resetIdle() {
+        hideIdle();
+        clearTimeout(idleTimeout);
+        idleTimeout = setTimeout(showIdle, idleDelay);
+      }
+      ['mousemove','mousedown','touchstart','scroll','keydown'].forEach(function(evt) {
+        window.addEventListener(evt, resetIdle, {passive:true});
+      });
+      resetIdle();
+      overlay.addEventListener('touchstart', hideIdle);
+      overlay.addEventListener('mousedown', hideIdle);
+    })();
+  </script>
+</body>
+</html> 
